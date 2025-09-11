@@ -13,11 +13,14 @@
         .gradient {
             background-image: linear-gradient(to bottom right, #4C51BF, #702459);
         }
+        .gradient-skill {
+            background-image: linear-gradient(to bottom right, #f07408d0, #d80202);
+        }
     </style>
-</head>
+</head> 
 
 <body>
-    <section class="w-screen mx-auto px-4">
+    <section class="w-container mx-auto px-4">
         <nav class="flex flex-wrap p-6 justify-between">
             <div class="flex flex-shrink-0 mr-6">
                 <img src="/img/logo.png" alt="" class="h-10 w-50 mr-2">
@@ -143,12 +146,38 @@
     </section>
 
     <!-- Skill Framework -->
-    <section class="w-screen mx-auto py-4 bg-white">
+    <section class="w-screen mx-auto py-4 px-4 bg-white ">
         <div class="flex flex-wrap">
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
             <img src="img/code2.jpg" alt="" class="max-w-full rounded-lg shadow-lg">
         </div>
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 bg-green-500 h-32"></div>
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+                <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
+                <div class="mb-4">
+                    <div class="h-1 mx-auto bg-pink-500 w1/2 opacity-75 my-0 mx-0 rounded"></div>
+                </div>
+                <p class="mt-4 tetx-lg text-gray-600">Berikut adalah item dan skala keahlian untuk framework : </p>
+                <ul class="list-none mt-4">
+                    <li class="grid grid-cols-2 py-2">
+                        <p class="text-lg text-gray-600">Laravel</p>
+                        <div class="gradient-skill w-8/8"></div>
+                   </li>
+                   <li class="grid grid-cols-2 py-2">
+                        <p class="text-lg text-gray-600">Nodejs</p>
+                        <div class="gradient-skill w-3/4"></div>
+                   </li>
+                   <li class="grid grid-cols-2 py-2">
+                        <p class="text-lg text-gray-600">Reactjs</p>
+                        <div class="gradient-skill w-2/4"></div>
+                   </li>
+                   <li class="grid grid-cols-2 py-2">
+                        <p class="text-lg text-gray-600">Vuejs</p>
+                        <div class="gradient-skill w-3/4"></div>
+                   </li>
+                </ul>
+            </div>
+        </div>
         </div>
     </section>
 
