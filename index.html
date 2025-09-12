@@ -13,14 +13,16 @@
         .gradient {
             background-image: linear-gradient(to bottom right, #4C51BF, #702459);
         }
+
         .gradient-skill {
             background-image: linear-gradient(to bottom right, #f07408d0, #d80202);
         }
+
         .gradient-bottom {
             background-image: linear-gradient(#4c51bf, #702459);
         }
     </style>
-</head> 
+</head>
 
 <body>
     <section class="w-container mx-auto px-4">
@@ -41,19 +43,19 @@
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="text-sm lg:flex-grow">
                     <a href="#about"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-g    ray-600 hover:text-gray-900 text-lg mr-4">About
+                        class="block mt-4 lg:inline-block lg:mt-0 text-gray-600   ray-600 hover:text-gray-900 text-lg mr-4">About
                         me</a>
-                    <a href="#recent"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Recent
-                        Work</a>
                     <a href="#skill"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Skill
                         Framework</a>
+                    <a href="#recent"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Recent
+                        Work</a>
                     <a href="#contact"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Contact
                         me</a>
                 </div>
-                <a href="#"
+                <a href="#contact"
                     class="inline-block text-sm px-5 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
                     Contact Me
                 </a>
@@ -61,7 +63,7 @@
         </nav>
     </section>
     <!-- about me -->
-    <section class="w-screen mx-auto py-4 gradient">
+    <section id="about" class="w-screen mx-auto py-4 gradient">
         <div class="px-16 py-8 text-center text-white">
             <h1 class="w-full text-5xl font-bold ">About me</h1>
             <div class="mb-4">
@@ -149,43 +151,43 @@
     </section>
 
     <!-- Skill Framework -->
-    <section class="w-screen mx-auto py-4 px-4 bg-white ">
+    <section id="skill" class="w-screen mx-auto py-4 px-4 bg-white ">
         <div class="flex flex-wrap">
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
-            <img src="img/code2.jpg" alt="" class="max-w-full rounded-lg shadow-lg">
-        </div>
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-            <div class="md:pr-12">
-                <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
-                <div class="mb-4">
-                    <div class="h-1 mx-auto bg-pink-500 w1/2 opacity-75 my-0 mx-0 rounded"></div>
-                </div>
-                <p class="mt-4 tetx-lg text-gray-600">Berikut adalah item dan skala keahlian untuk framework : </p>
-                <ul class="list-none mt-4">
-                    <li class="grid grid-cols-2 py-2">
-                        <p class="text-lg text-gray-600">Laravel</p>
-                        <div class="gradient-skill w-8/8"></div>
-                   </li>
-                   <li class="grid grid-cols-2 py-2">
-                        <p class="text-lg text-gray-600">Nodejs</p>
-                        <div class="gradient-skill w-3/4"></div>
-                   </li>
-                   <li class="grid grid-cols-2 py-2">
-                        <p class="text-lg text-gray-600">Reactjs</p>
-                        <div class="gradient-skill w-2/4"></div>
-                   </li>
-                   <li class="grid grid-cols-2 py-2">
-                        <p class="text-lg text-gray-600">Vuejs</p>
-                        <div class="gradient-skill w-3/4"></div>
-                   </li>
-                </ul>
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+                <img src="img/code2.jpg" alt="" class="max-w-full rounded-lg shadow-lg">
             </div>
-        </div>
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                <div class="md:pr-12">
+                    <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-pink-500 w1/2 opacity-75 my-0 mx-0 rounded"></div>
+                    </div>
+                    <p class="mt-4 tetx-lg text-gray-600">Berikut adalah item dan skala keahlian untuk framework : </p>
+                    <ul class="list-none mt-4">
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Laravel</p>
+                            <div class="gradient-skill w-8/8"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Nodejs</p>
+                            <div class="gradient-skill w-3/4"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Reactjs</p>
+                            <div class="gradient-skill w-2/4"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Vuejs</p>
+                            <div class="gradient-skill w-3/4"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Recent Work -->
-    <section class="container mx-auto py-8 bg-white">
+    <section id="recent" class="container mx-auto py-8 bg-white">
         <div class="text-center mb-8">
             <h1 class="w-full my-2 text-5xl font-bold text-gray-700">My Recent Work</h1>
             <div class="mb-4">
@@ -198,7 +200,9 @@
                 <img src="img/hosptital.jpeg" alt="" class="w-full rounded-lg">
                 <div class="px-2 py-2 text-center">
                     <p class="font-bold text-xl mb-2 text-gray-700">Sistem informasi Rumah Sakit</p>
-                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter, pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
+                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi
+                        rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter,
+                        pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
                 </div>
                 <div class="px-2 py-2 text-center">
                     <button
@@ -211,7 +215,9 @@
                 <img src="img/hosptital.jpeg" alt="" class="w-full rounded-lg">
                 <div class="px-2 py-2 text-center">
                     <p class="font-bold text-xl mb-2 text-gray-700">Sistem informasi Rumah Sakit</p>
-                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter, pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
+                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi
+                        rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter,
+                        pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
                 </div>
                 <div class="px-2 py-2 text-center">
                     <button
@@ -224,7 +230,9 @@
                 <img src="img/farm.webp" alt="" class="w-full rounded-lg">
                 <div class="px-2 py-2 text-center">
                     <p class="font-bold text-xl mb-2 text-gray-700">Sistem manajemen Pertanian</p>
-                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi pertanian. Aplikasi ini memiliki fitur-fitur seperti pengelolaan petani, pengelolaan peternak, pengelolaan tanaman, dan pengelolaan riwayat pertanian.</p>
+                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi
+                        pertanian. Aplikasi ini memiliki fitur-fitur seperti pengelolaan petani, pengelolaan peternak,
+                        pengelolaan tanaman, dan pengelolaan riwayat pertanian.</p>
                 </div>
                 <div class="px-2 py-2 text-center">
                     <button
@@ -237,7 +245,9 @@
                 <img src="img/hosptital.jpeg" alt="" class="w-full rounded-lg">
                 <div class="px-2 py-2 text-center">
                     <p class="font-bold text-xl mb-2 text-gray-700">Sistem informasi Rumah Sakit</p>
-                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter, pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
+                    <p class="text-gray-700 text-base ">sebuah aplikasi yang digunakan untuk mengelola data dan operasi
+                        rumah sakit. Aplikasi ini memiliki fitur-fitur seperti pengelolaan pasien, pengelolaan dokter,
+                        pengelolaan obat, dan pengelolaan riwayat kesehatan.</p>
                 </div>
                 <div class="px-2 py-2 text-center">
                     <button
@@ -249,7 +259,7 @@
         </div>
     </section>
     <!-- Contact Me -->
-    <section class="w-screen mx-auto py-4 gradient-bottom">
+    <section id="contact" class="w-screen mx-auto py-4 gradient-bottom">
         <h1 class="w-full my-2 text-5xl font-bold text-center text-white ">Contact me</h1>
         <div class="mb-4">
             <div class="h-1 mx-auto bg-blue-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
@@ -260,29 +270,52 @@
                 <p class="mt-1 mb-4 text-gray-600">Tolong kirimkan pesan</p>
                 <div class="w-full mb-4 mt-8">
                     <label for="" class="uppercase text-gray-600 text-xs font-bold">Nama lengkap</label>
-                    <input type="text" class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full" placeholder="nama lengkap">
+                    <input type="text"
+                        class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full"
+                        placeholder="nama lengkap">
                 </div>
 
                 <div class="w-full mb-4 mt-4">
                     <label for="" class="uppercase text-gray-600 text-xs font-bold">Email</label>
-                    <input type="text" class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full" placeholder="email">
+                    <input type="text"
+                        class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full"
+                        placeholder="email">
                 </div>
 
                 <div class="w-full mb-4 mt-4">
                     <label for="" class="uppercase text-gray-600 text-xs font-bold">Pesan</label>
-                    <textarea row="4" cols="80" type="text" class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full" placeholder="tuliskan pesan ..."></textarea>                    
+                    <textarea row="4" cols="80" type="text"
+                        class="mt-2 px-3 py-3 placeholder-gray-600 text-gray-600 bg-white rounded text-sm shadow w-full"
+                        placeholder="tuliskan pesan ..."></textarea>
                 </div>
                 <div class="mt-6">
-                    <button class="bg-indigo-700 text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-indigo-900 hover:shadow-lg">Kirim pesan</button>
+                    <button
+                        class="bg-indigo-700 text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-indigo-900 hover:shadow-lg">Kirim
+                        pesan</button>
                 </div>
 
-            
+
             </form>
         </div>
     </section>
 
-
-    <section class="w-screen mx-auto py-4 bg-white h-32">Footer</section>
+    <!-- Footer -->
+    <section class="w-screen mx-auto py-4 bg-white mt-8 mb-8">
+        <div class="text-center">
+            <a href="" class="text-indigo-700 hover:text-indigo-900 p2"> <!-- mengatur properti untuk icon dibawahnya-->
+                <i class="fa-2x fab fa-facebook"></i>
+            </a>
+            <a href="" class="text-indigo-700 hover:text-indigo-900 p2">
+                <i class="fa-2x fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-indigo-700 hover:text-indigo-900 p2">
+                <i class="fa-2x fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="text-center mt-4 text-gray-600">
+            Design with tailwindcss
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/911f5f67ff.js" crossorigin="anonymous"></script>
 
